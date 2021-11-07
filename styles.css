@@ -311,6 +311,7 @@ span {
 @media screen and (min-width: 1050px) {
   h1 {
     font-size: var(--font-size-title-big-desktop);
+    font-weight: 900;
   }
 
   h3 {
@@ -327,7 +328,7 @@ span {
         25%,
         23rem
       );
-    grid-template-rows: min-content 30rem;
+    grid-template-rows: min-content 38rem;
     place-items: center;
   }
 
@@ -390,9 +391,13 @@ span {
       url(assets/desktop/image-footer.jpg) center/cover;
     padding: 5.65rem 1.5rem;
   }
+}
 
+/***************** MEDIA min-width: 1100px *******************/
+
+@media screen and (min-width: 1100px) {
   .services__footer--content {
-    max-width: 85%;
+    max-width: 1100px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -401,11 +406,10 @@ span {
 
   .services__footer--title {
     padding: 0;
-    margin: 0 2rem 0;
   }
 
   .services__footer--para {
-    margin: 0 7rem 0;
+    margin: 0 5rem 0;
   }
 
   .services__footer--title,
@@ -419,9 +423,9 @@ span {
   }
 }
 
-/***************** MEDIA min-width: 1445px *******************/
+/***************** MEDIA min-width: 1440px *******************/
 
-@media screen and (min-width: 1445px) {
+@media screen and (min-width: 1440px) {
   body {
     max-width: 1440px;
     margin: 0 auto;
